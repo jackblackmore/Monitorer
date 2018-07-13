@@ -28,12 +28,6 @@ namespace ScratchPad
                 }
 
             }
-
-
-
-
-
-
         }
     }
 }

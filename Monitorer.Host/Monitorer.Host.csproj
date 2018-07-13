@@ -34,6 +34,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -45,8 +46,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MonitorHost.cs" />
     <Compile Include="PingMonitor.cs" />
-    <Compile Include="TimerMonitor.cs" />
+    <Compile Include="Monitor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
@@ -54,10 +56,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="StatusUpdatedEventArgs.cs" />
+    <Compile Include="MonitorUpdatedEventArgs.cs" />
     <Compile Include="MonitorStatus.cs" />
     <Compile Include="MonitorerTrayMenu.cs" />
     <Compile Include="MonitorerSystemTrayHost.cs" />
+    <Compile Include="ServiceMonitor.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>

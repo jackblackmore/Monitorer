@@ -43,7 +43,7 @@ namespace Monitorer.Host
             Application.Exit();
         }
 
-        public void AddTimerToMenu(TimerMonitor timer)
+        public void AddTimerToMenu(Monitor timer)
         {
             ToolStripMenuItem group = GetCreateMonitorGroup(timer);
             MonitorMenuItem item = new MonitorMenuItem(timer, timer.Name) {Checked = true};
@@ -53,7 +53,7 @@ namespace Monitorer.Host
             item.Click += Item_Click;
         }
 
-        private ToolStripMenuItem GetCreateMonitorGroup(TimerMonitor timer)
+        private ToolStripMenuItem GetCreateMonitorGroup(Monitor timer)
         {
             string groupName = timer.GetType().Name;
             if (_monitorItemGroups.TryGetValue(groupName, out ToolStripMenuItem group))
@@ -79,9 +79,9 @@ namespace Monitorer.Host
 
     public class MonitorMenuItem : ToolStripMenuItem
     {
-        public TimerMonitor Timer { get; set; }
+        public Monitor Timer { get; set; }
 
-        public MonitorMenuItem(TimerMonitor timer, string text) : base(text)
+        public MonitorMenuItem(Monitor timer, string text) : base(text)
         {
             Timer = timer;
         }
