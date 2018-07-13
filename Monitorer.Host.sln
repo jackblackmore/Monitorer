@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monitorer.Host", "Monitorer.Host\Monitorer.Host.csproj", "{AF83BD97-E066-4D49-9D60-1F1BB8EC1CD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScratchPad", "ScratchPad\ScratchPad.csproj", "{53D75AAA-84ED-47C3-881B-4465F7C38168}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF83BD97-E066-4D49-9D60-1F1BB8EC1CD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF83BD97-E066-4D49-9D60-1F1BB8EC1CD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF83BD97-E066-4D49-9D60-1F1BB8EC1CD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF83BD97-E066-4D49-9D60-1F1BB8EC1CD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53D75AAA-84ED-47C3-881B-4465F7C38168}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53D75AAA-84ED-47C3-881B-4465F7C38168}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53D75AAA-84ED-47C3-881B-4465F7C38168}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53D75AAA-84ED-47C3-881B-4465F7C38168}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {757B9225-5FFE-49A3-9F6F-424C12BB5196}
+	EndGlobalSection
+EndGlobal
